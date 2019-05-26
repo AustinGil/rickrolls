@@ -1,3 +1,10 @@
 type Query {
-  quotes: String!
+  quotes: Quote!
+}
+
+type Quote {
+  character: String!
+  episode: Int!
+  quote: String!
+  season: Int!
 }
